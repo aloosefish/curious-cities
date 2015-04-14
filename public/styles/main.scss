@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,300,800);
+
+body {
+	background-color: #16a085;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+#world {
+	display: block;
+	width: 10%;
+	color: red;
+	margin: auto;
+}
+/*
+#googleMap {
+	border: 1px solid #1abc9c;
+	margin: auto;
+}*/
+
+.gm-style {
+
+}
+
+
+
+
+/*img {
+	max-width: 150px;
+	border: 20px;
+}*/
+
+/*.mapMarker {
+  box-shadow: 2px 2px 4px #333;
+	border: 10px solid red;
+	font-size: 10px;
+}
+*/
+    #googleMap {
+        height:600px;
+        width: 90vw;
+        margin: auto;
+    }
+    .gm-style-iw * {
+        display: block;
+        width: 100%;
+    }
+    .gm-style-iw h4, .gm-style-iw p {
+        margin: 0;
+        padding: 0;
+    }
+    .gm-style-iw a {
+        color: #4272db;
+    }

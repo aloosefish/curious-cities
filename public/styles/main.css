@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,300,800);
+body {
+  /*background-color: #16a085;*/
+  font-family: 'Open Sans', sans-serif; }
+
+h1 {
+  text-align: center;
+  color: white; }
+
+#logo {
+  display: block;
+  width: 200px;
+  margin: 20px auto; 
+  text-align: center;
+}
+
+.info-dropdown {
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+}
+
+.page-ingo {
+  text-align: center;
+}
+
+button {
+  height: 30px;
+  border: 0;
+  background-color: #4272db;
+  border-radius: 5px;
+  margin: auto;
+  color: white;
+}
+
+/*
+#googleMap {
+	border: 1px solid #1abc9c;
+	margin: auto;
+}*/
+/*img {
+	max-width: 150px;
+	border: 20px;
+}*/
+/*.mapMarker {
+  box-shadow: 2px 2px 4px #333;
+	border: 10px solid red;
+	font-size: 10px;
+}
+*/
+
+#markerLayer img {
+  border: 2px solid red !important;
+  border-radius: 5px;
+}
+
+.infoWindow {
+	background-color:red;
+	font-size: 16px;
+	text-align: center;
+}
+
+#googleMap {
+  height: 600px;
+  width: 90vw;
+  margin: auto; }
+
+.gm-style-iw * {
+  display: block;
+  width: 200px; 
+}
+
+.gm-style-iw h4, .gm-style-iw p {
+  margin: 0;
+  padding: 0; }
+
+.gm-style-iw a {
+  color: #4272db; }
+
+/*# sourceMappingURL=main.css.map */
